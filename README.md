@@ -16,13 +16,14 @@ git clone https://github.com/nwtaf/yolov8-pose-basic-project.git
 cd yolov8-pose-basic-project
 pip install -r requirements.txt
 ```
-## Useage
-The `data/` directory is for source data. Utilities are available for downloading source data, like youtube videos. 
+## Getting Started
+The `data/` directory is for source data. Utilities are available for downloading source data, like youtube videos in `src/python/utilities`.
+
 Alternatively, `ffmpeg` and `youtube-dl` are handy from a terminal. It is recommended to use a package manager such as `winget`or `apt-get`, which typically install and set the installed package to the system environment variable PATH automatically.
 
-`main.py` accepts source data, runs YOLOv8n-pose, and automatically stores generated data in the `output` directory. `output/csv/` contains lists of touples: `[('x1', 'y1'), ('1', '2'), ('3', '4'), ('5', '6')]`. `output/images/` contains an image of the last frame of `ouput/videos/`. 
+`main.py` accepts source data, runs YOLOv8n-pose, and automatically stores generated data in the `output` directory. `output/csv/` contains lists of touples: `[('x1', 'y1'), ('1', '2'), ('3', '4'), ('5', '6')]` for each keypoint that is having its coordinates recorded. `output/images/filename` contains an image of the last frame of `ouput/videos/filename`. 
 
-`compare.py` has functions for comparing and displaying node history data. This section could use the most development. 
+`compare.py` has functions for comparing and displaying node history data. This section needs further development. 
 
 ### Tips
 When running `main.py` remember to set the `file number` to something new. Otherwise output files will continually be overwritten. 
