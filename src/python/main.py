@@ -15,7 +15,7 @@ file_number = '8'
 model = YOLO('models/yolov8n-pose.pt')
 
 # Define video source
-video_path = str(Path('data/video/amateur.mp4'))
+video_path = str(Path('data/videos/amateur.mp4'))
 video_source = 0 #video_path
 cap = cv2.VideoCapture(video_source)
 
