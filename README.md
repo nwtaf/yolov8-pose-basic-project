@@ -1,4 +1,4 @@
-# YOLOv8-Pose Basic Project
+# YOLOv8-pose Basic Project
 
 This repo was created as a basic project structure for getting started with keypoint detection for pose estimation. It has tools for downloading source data, a processor `main.py`, and basic tools for exploring the data.
 
