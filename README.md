@@ -2,6 +2,8 @@
 
 This repo was created as a basic project structure for getting started with keypoint detection for pose estimation. It has tools for downloading source data, a processor `main.py`, and basic tools for exploring the data.
 
+![Example GIF](./output/video/output1.gif)
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -9,14 +11,11 @@ This repo was created as a basic project structure for getting started with keyp
 
 ## Installation
 
-Describe the installation process here. Include any pre-requisites and a step-by-step guide. For example:
-
 ```bash
-git clone https://github.com/username/project.git
-cd project
+git clone https://github.com/nwtaf/yolov8-pose-basic-project.git
+cd yolov8-pose-basic-project
 pip install -r requirements.txt
 ```
-
 ## Useage
 The `data/` directory is for source data. Utilities are available for downloading source data, like youtube videos. 
 Alternatively, `ffmpeg` and `youtube-dl` are handy from a terminal. It is recommended to use a package manager such as `winget`or `apt-get`, which typically install and set the installed package to the system environment variable PATH.
