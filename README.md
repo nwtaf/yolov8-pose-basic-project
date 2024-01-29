@@ -2,7 +2,7 @@
 
 This repo was created as a basic project structure for getting started with keypoint detection for pose estimation. It has tools for downloading source data, a processor `main.py`, and basic tools for exploring the data.
 
-![Example GIF](./output/video/output1.gif)
+![https://youtube.com/shorts/G7ZJNaszMrc?si=5_yVEZtlm9l5-pW-](./output/image/example.gif)
 
 ## Table of Contents
 
