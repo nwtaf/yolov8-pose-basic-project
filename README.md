@@ -22,4 +22,4 @@ Alternatively, `ffmpeg` and `youtube-dl` are handy from a terminal. It is recomm
 
 `main.py` accepts source data, runs YOLOv8n-pose, and automatically stores generated data in the `output` directory. `output/csv` contains lists of touples: `[('x1', 'y1'), ('1', '2'), ('3', '4'), ('5', '6')]`. 
 
-`compare.py` has functions for comparing and displaying node history data.
+`compare.py` has functions for comparing and displaying node history data. This section could use the most development. 
