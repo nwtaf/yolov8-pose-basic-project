@@ -1,8 +1,8 @@
 .venv/
 
-data/images/*
-data/video/*
+data/images/* !data/images/.gitignore
+data/video/* !data/video/.gitignore
 
-output/csv/*
+output/csv/* !output/csv/.gitignore
 output/image/* !output/image/example.gif
-output/video/*
+output/video/* !output/video/.gitignore
