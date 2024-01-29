@@ -1,7 +1,7 @@
 .venv/
 
 data/images/*
-data/vidoe/*
+data/video/*
 
 output/csv/*
 output/image/*
