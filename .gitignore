@@ -1,0 +1,8 @@
+.venv/
+
+data/images/*
+data/vidoe/*
+
+output/csv/*
+output/image/*
+output/video/*
